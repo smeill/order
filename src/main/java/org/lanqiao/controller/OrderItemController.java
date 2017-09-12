@@ -20,4 +20,9 @@ public class OrderItemController {
 	public @ResponseBody List<OrderItem> showOrderItems(@RequestParam("orderId")int orderId ){
 		return orderItemService.getOrderItemsByOrderId(orderId);
 	}
+	@RequestMapping("srfjshdj")
+	public void sn(){
+		
+	}
+	
 }
