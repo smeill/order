@@ -22,7 +22,7 @@ public class OrderItemController {
 	}
 	@RequestMapping("srfjshdj")
 	public void sn(){
-		
+		System.out.println("hello,world");
 	}
 	
 }
