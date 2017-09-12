@@ -17,5 +17,10 @@ public interface OrderItemDao {
 
 	int updateByPrimaryKey(OrderItem record);
 
+	/**
+	 * 
+	 * @param orderId
+	 * @return
+	 */
 	List<OrderItem> getOrderItemsByOrderId(int orderId);
 }
